@@ -1,5 +1,5 @@
 import unittest
-from Calculator import add 
+from testcalculator import add 
 class TestCalculator(unittest.TestCase):
     def test_positive_number(self):
         self.assertEqual(add(2,3),5)
